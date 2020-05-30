@@ -1,3 +1,4 @@
+[![Build Status](https://dev.azure.com/nakasho-learn/Space%20Game-web-Pipeline/_apis/build/status/nakasho-dev.mslearn-tailspin-spacegame-web?branchName=master)](https://dev.azure.com/nakasho-learn/Space%20Game-web-Pipeline/_build/latest?definitionId=1&branchName=master)
 
 # Contributing
 

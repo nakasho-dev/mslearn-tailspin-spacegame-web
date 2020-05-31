@@ -2,7 +2,7 @@ trigger:
 - '*'
 
 pool:
-  vmImage: 'ubuntu-16.04'
+  vmImage: 'ubuntu-latest'
   demands:
     - npm
 
@@ -14,11 +14,11 @@ variables:
 steps:
 # Java tool installer
 # Acquire a specific version of Java from a user-supplied Azure blob or the tool cache and sets JAVA_HOME
-- task: JavaToolInstaller@0
-  inputs:
-    versionSpec: '11'
-    jdkArchitectureOption: 'x64'
-    jdkSourceOption: 'PreInstalled'
+# - task: JavaToolInstaller@0
+#   inputs:
+#     versionSpec: '11'
+#     jdkArchitectureOption: 'x64'
+#     jdkSourceOption: 'PreInstalled'
 
 - task: UseDotNet@2
   displayName: 'Use .NET Core SDK $(dotnetSdkVersion)'
